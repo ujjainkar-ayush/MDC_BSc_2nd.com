@@ -1,0 +1,215 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* Style for the navigation bar */
+/* Style for the navigation bar */
+   ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /*Background color of the navigation bar */
+    overflow: hidden;
+    position: sticky; /* Make the navigation bar sticky */
+    top: 0; /* Position it at the top of the viewport */
+    z-index: 100; /* Ensure it appears above other elements */
+}
+
+li.nav-item {
+    float: left;
+}
+
+li.nav-item a {
+    display: block;
+    color: white; /* Text color for the navigation links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #222; /* Dark background color for navigation links */
+    transition: .5s ease-in-out;
+}
+
+li.nav-item a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+
+/* Style for the main content */
+.content {
+    background-color: #f0f0f0; /* Background color for the content area */
+    padding: 20px;
+    width: 65%; /* Set the width to 65% */
+    margin: 0 auto; /* Center the content horizontally */
+}
+.content img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    margin: 20px auto; /* Center images horizontally with margin */
+}
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+  /* Basic styling for the Faculties section */
+  .faculties-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.faculty-section {
+    margin-bottom: 30px;
+}
+
+.faculty-card {
+    border: 1px solid #ddd;
+    padding: 10px; /* Smaller padding */
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px); /* 3 cards per row with 20px margin */
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.faculty-name {
+    font-weight: bold;
+    font-size: 16px; /* Smaller font size */
+}
+
+.faculty-title {
+    color: #888;
+    margin-top: 5px;
+}
+fieldset{
+    border: dotted 2px black;
+    border-radius: 5px;
+}
+/* Section-specific colors */
+.science-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffdb58;
+}
+
+.arts-section {
+    padding: 20px;
+    background-color: #ffa07a;
+    text-align: center;
+}
+
+.commerce-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #add8e6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .faculty-card {
+        width: 100%;
+    }
+}
+/* Style for the footer */
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.branches-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+.branches-section  h2{
+    margin-right: 30px;
+}
+/* Styles for each branch */
+.branch {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #bbb3b3;
+    width: 25%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    transition: all .5S ease-in-out;
+    align-items: center;
+}
+.branch:hover{
+    box-shadow: 1px 1px 10px #222;
+}
+/* Styles for branch headings */
+.branch h3 {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Styles for the subject list */
+.subject-list {
+    list-style-type: none;
+    padding: 0;
+}
+.fee-structure{
+    height: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    width: 90%;
+    margin: auto;
+}
+/* Styles for each subject */
+.subject-list .subject {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.coc{
+    width: 65%;
+    background-color: #ddd;
+    margin: auto;
+    padding: 10px;
+}
+
+.coc fieldset{
+    border: royalblue solid;
+    margin-bottom: 20px;
+}
+
+.coc fieldset legend{
+    font-size: 20px;
+    font-weight: 700;
+    color: orangered;
+    text-align: center;
+}
+
