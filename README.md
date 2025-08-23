@@ -3,8 +3,7 @@
 ### This is the website made for science exhibition at :
 #### Model Degree College of Arts, Commerce and Science, Buldhana
 
-It is just for particular time so no need to edit this or contribute to it.
-
+It is just for particular time so no need to edit this or contribute to
 
 
 
