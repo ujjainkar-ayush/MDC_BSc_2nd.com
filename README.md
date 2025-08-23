@@ -10,4 +10,4 @@ It is just for particular time so no need to edit this or contribute to it.
 I have completed my bachelor's degree at SGBAU
 ```
 
-no
+
